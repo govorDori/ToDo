@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.app{
+  background: #C04848;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height: 100vh; 
+}
+.header{
+  text-align: center;
+  color: rgb(234, 193, 193);
+   
+}
+.login{
+  box-shadow: 0 0 15px rgb(234, 193, 193);
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  border-radius: 10px;
+}
+
+.notask{
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+}
+.addTodo{
+  display: flex;
+  justify-content: center;
+padding: 10px;
+
+
+}
+
+.todolist{
+  
+   display: flex;
+   justify-content: center;
+}
